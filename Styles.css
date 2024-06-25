@@ -1,14 +1,45 @@
 body {
   min-height: 100vh;
   min-width: 100vh;
-  background-color: blueviolet;
+  background-color: blue;
 }
 
-h1 {
-  text-align: center;
+nav {
+  height: 100px;
+  align-items: center;
+  display: flex;
   color: white;
+  background-color: purple;
+  justify-content: space-around;
 }
 
-form {
-  text-align: center;
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.searchbar {
+  display: flex;
+}
+
+.searchbar input {
+  padding: 7px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  width: 258px;
+}
+
+.searchbutton {
+  background-color: blue;
+  width: 80px;
+  color: whitesmoke;
+  border: none;
+  font-size: 16px;
+  margin-inline: 8;
+  border-radius: 1px;
 }

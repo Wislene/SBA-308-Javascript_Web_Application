@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MovieSearch</title>
-  <link href="styles.css" rel="stylesheet" />
-</head>
-<body>
-  <!-- Navigation search Bar -->
-<div class = "navbar">
-  <nav>
-    <div class="logo">
-      <h1>Movie Search App</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Image Search</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation search Bar -->
+    <div class="navbar">
+      <nav>
+        <div class="logo">
+          <h1>Cat Image Search App</h1>
+        </div>
+        <div class="searchbar">
+          <input type="text" id="searchInput" placeholder="Enter cat breed" />
+          <button id="searchbutton">Search</button>
+        </div>
+      </nav>
     </div>
-    <div class="searchbar">
-      <input type="text" id="searchinput" placeholder="Search for movie">
-      <button id="searchbutton">Search</button>
-    </div>
-  </nav>
- 
-  <div class="searchresults">
-    
-  </div>
 
-  <!-- JavaScript -->
-  <script src="./WebApp.js"></script>
- 
-</body>
+    <div id="results" class="searchresults"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>

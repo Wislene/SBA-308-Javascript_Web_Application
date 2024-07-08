@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  },
+  "name": "sba308-javascriptwebapplication",
+  "version": "1.0.0",
+  "description": "This is a web page about cats.  This was created to bring some joy to those who love cats.",
+  "main": "WebApp.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
